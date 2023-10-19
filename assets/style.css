@@ -1,0 +1,28 @@
+body{
+    background-color: #222;
+    color: #DDD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend, div{
+    padding: 10px;
+}
+
+#title-field,
+#body-field {
+    background-color: #DDD;
+}
+
+#insert-button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #DDD;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all;
+}
+
+#insert-button:hover{
+    opacity: 0.85;
+}
